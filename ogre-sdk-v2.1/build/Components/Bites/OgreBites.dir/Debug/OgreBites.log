@@ -1,0 +1,111 @@
+﻿  OgreAdvancedRenderControls.cpp
+  OgreApplicationContextBase.cpp
+  OgreBitesConfigDialog.cpp
+  OgreCameraMan.cpp
+  OgreSGTechniqueResolverListener.cpp
+  OgreStaticPluginLoader.cpp
+  OgreTrays.cpp
+  OgreWindowEventUtilities.cpp
+  OgreApplicationContextSDL.cpp
+  OgreWIN32ConfigDialog.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreCameraMan.cpp(199,91): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=Ogre::Real
+          ]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreCameraMan.cpp(199,77): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=Ogre::Real
+          ]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(93,26): warning C4244: 'return': conversion from 'unsigned int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(323,44): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(342,53): warning C4244: 'argument': conversion from 'T' to 'Ogre::Real', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(357,53): warning C4244: 'argument': conversion from 'T' to 'Ogre::Real', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(600,61): warning C4244: 'argument': conversion from 'T' to 'Ogre::Real', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(657,75): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(675,57): warning C4244: 'argument': conversion from 'T' to 'Ogre::Real', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(686,66): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(870,91): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(898,48): warning C4244: 'argument': conversion from 'T' to 'Ogre::Real', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(908,79): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(921,48): warning C4244: 'argument': conversion from 'T' to 'Ogre::Real', possible loss of data
+          with
+          [
+              T=int
+          ]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(1125,34): warning C4244: 'argument': conversion from 'const _Ty' to 'Ogre::Real', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(1135,46): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(1323,35): warning C4244: '=': conversion from 'const _Ty' to 'Ogre::Real', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(1329,35): warning C4244: '=': conversion from 'const _Ty' to 'Ogre::Real', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(1335,33): warning C4244: '=': conversion from 'const _Ty' to 'Ogre::Real', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(1377,61): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(1377,43): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(1378,67): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(1378,46): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(1404,45): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(1405,39): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(1426,81): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(1426,55): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(1427,87): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(1427,58): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(1828,36): warning C4267: '+=': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(1934,31): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned long', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(1980,31): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned long', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(2138,42): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=Ogre::Real
+          ]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(2138,35): warning C4244: 'argument': conversion from 'const int' to 'T', possible loss of data
+          with
+          [
+              T=Ogre::Real
+          ]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(2190,54): warning C4244: 'argument': conversion from 'unsigned int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreTrays.cpp(2189,55): warning C4244: 'argument': conversion from 'unsigned int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\SDLInputMapping.h(67,46): warning C4244: '=': conversion from 'const SDL_FingerID' to 'int', possible loss of data (compiling source file C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreApplicationContextSDL.cpp)
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreWIN32ConfigDialog.cpp(163,34): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreWIN32ConfigDialog.cpp(170,38): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreWIN32ConfigDialog.cpp(202,38): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreWIN32ConfigDialog.cpp(238,38): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreWIN32ConfigDialog.cpp(245,38): warning C4244: '=': conversion from 'LRESULT' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Bites\src\OgreWIN32ConfigDialog.cpp(327,13): warning C4244: '=': conversion from 'INT_PTR' to 'int', possible loss of data
+     Creating library C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/OgreBites_d.lib and object C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/OgreBites_d.exp
+  OgreBites.vcxproj -> C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\Debug\OgreBites_d.dll

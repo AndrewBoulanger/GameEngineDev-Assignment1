@@ -1,0 +1,12 @@
+﻿  OgreBspLevel.cpp
+  OgreBspNode.cpp
+  OgreBspSceneLoader.cpp
+  OgreBspSceneManager.cpp
+  OgreBspSceneManagerDll.cpp
+  OgreBspSceneManagerPlugin.cpp
+  OgreBspSceneNode.cpp
+  OgreQuake3Level.cpp
+  OgreQuake3Shader.cpp
+  OgreQuake3ShaderManager.cpp
+     Creating library C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/Plugin_BSPSceneManager_d.lib and object C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/Plugin_BSPSceneManager_d.exp
+  Plugin_BSPSceneManager.vcxproj -> C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\Debug\Plugin_BSPSceneManager_d.dll

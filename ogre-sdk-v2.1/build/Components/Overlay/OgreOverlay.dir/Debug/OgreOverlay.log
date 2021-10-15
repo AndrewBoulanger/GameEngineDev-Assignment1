@@ -1,0 +1,18 @@
+﻿  OgreBorderPanelOverlayElement.cpp
+  OgreFont.cpp
+  OgreFontManager.cpp
+  OgreOverlay.cpp
+  OgreOverlayContainer.cpp
+  OgreOverlayElement.cpp
+  OgreOverlayElementCommands.cpp
+  OgreOverlayElementFactory.cpp
+  OgreOverlayManager.cpp
+  OgreOverlayProfileSessionListener.cpp
+  OgreOverlaySystem.cpp
+  OgreOverlayTranslator.cpp
+  OgrePanelOverlayElement.cpp
+  OgreTextAreaOverlayElement.cpp
+  OgreUTFString.cpp
+     Creating library C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/OgreOverlay_d.lib and object C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/OgreOverlay_d.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  OgreOverlay.vcxproj -> C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\Debug\OgreOverlay_d.dll

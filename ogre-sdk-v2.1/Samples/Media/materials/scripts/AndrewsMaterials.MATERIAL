@@ -1,0 +1,164 @@
+material AndrewsMaterial1
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture Orange.png
+            }
+        }
+    }
+}
+
+material AndrewsMaterial2
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+				tex_address_mode mirror
+                texture background2.png
+            }
+        }
+    }
+}
+
+material AndrewsMaterial3
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture terr_rock6.jpg
+            }
+        }
+    }
+}
+
+material AndrewsMaterial4
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+				tex_address_mode clamp
+                texture terr_rock6.jpg
+            }
+        }
+    }
+}
+
+material AndrewsMaterial5
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+				tex_address_mode mirror
+                texture leaf.png
+            }
+        }
+    }
+}
+
+material AndrewsMaterial6
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+				tex_address_mode border
+                texture leaf.png
+            }
+        }
+    }
+}
+
+material AndrewsMaterial7
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+				tex_address_mode border
+				tex_border_colour 0.0 0.0 1.0
+                texture leaf.png
+            }
+        }
+    }
+}
+
+material AndrewsMaterial8
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture terr_rock6.jpg
+            }
+        }
+    }
+}
+
+material AndrewsMaterial9
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture terr_rock6.jpg
+				scroll 0.8 0.8
+            }
+        }
+    }
+}
+
+material AndrewsMaterial10
+{
+    technique
+    {
+        pass
+        {
+            texture_unit 
+            {
+                texture terr_rock6.jpg
+				scroll_anim 0.01 0.01
+            }
+        }
+    }
+}
+
+material AndrewsMaterial11
+{
+    technique
+    {
+        pass
+        {
+            texture_unit texture1
+            {
+                texture terr_rock6.jpg
+				rotate_anim 0.1
+            }
+        }
+    }
+}
+
+

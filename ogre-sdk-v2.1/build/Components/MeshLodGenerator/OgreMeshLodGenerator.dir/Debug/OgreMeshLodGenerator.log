@@ -1,0 +1,26 @@
+﻿  OgreMeshLodGenerator_pch.cpp
+  OgreLodBuffer.cpp
+  OgreLodCollapseCost.cpp
+  OgreLodCollapseCostCurvature.cpp
+  OgreLodCollapseCostOutside.cpp
+  OgreLodCollapseCostProfiler.cpp
+  OgreLodCollapseCostQuadric.cpp
+  OgreLodCollapser.cpp
+  OgreLodConfig.cpp
+  OgreLodConfigSerializer.cpp
+  OgreLodData.cpp
+  OgreLodInputProvider.cpp
+  OgreLodInputProviderBuffer.cpp
+  OgreLodInputProviderMesh.cpp
+  OgreLodOutputProviderBuffer.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\MeshLodGenerator\src\OgreLodInputProviderMesh.cpp(98,109): warning C4267: 'argument': conversion from 'size_t' to 'Ogre::ushort', possible loss of data
+  OgreLodOutputProviderCompressedBuffer.cpp
+  OgreLodOutputProviderCompressedMesh.cpp
+  OgreLodOutputProviderMesh.cpp
+  OgreLodOutsideMarker.cpp
+  OgreLodWorkQueueInjector.cpp
+  OgreLodWorkQueueWorker.cpp
+  OgreMeshLodGenerator.cpp
+  OgreSmallVector.cpp
+     Creating library C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/OgreMeshLodGenerator_d.lib and object C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/OgreMeshLodGenerator_d.exp
+  OgreMeshLodGenerator.vcxproj -> C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\Debug\OgreMeshLodGenerator_d.dll

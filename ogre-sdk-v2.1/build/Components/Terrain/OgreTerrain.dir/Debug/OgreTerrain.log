@@ -1,0 +1,22 @@
+﻿  OgreTerrain.cpp
+  OgreTerrainAutoUpdateLod.cpp
+  OgreTerrainGroup.cpp
+  OgreTerrainLayerBlendMap.cpp
+  OgreTerrainLodManager.cpp
+  OgreTerrainMaterialGenerator.cpp
+  OgreTerrainMaterialGeneratorA.cpp
+  OgreTerrainMaterialShaderHelperCg.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Terrain\src\OgreTerrainLayerBlendMap.cpp(136,38): warning C4267: 'argument': conversion from 'size_t' to 'const T', possible loss of data
+          with
+          [
+              T=long
+          ]
+  OgreTerrainMaterialShaderHelperGLSL.cpp
+  OgreTerrainQuadTreeNode.cpp
+  OgreTerrainPaging.cpp
+  OgreTerrainPagedWorldSection.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Terrain\src\OgreTerrainPagedWorldSection.cpp(56,80): warning C4244: '=': conversion from 'uint64_t' to 'unsigned long', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Terrain\src\OgreTerrainPagedWorldSection.cpp(287,35): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned long', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\Components\Terrain\src\OgreTerrainPagedWorldSection.cpp(323,39): warning C4244: 'initializing': conversion from 'uint64_t' to 'unsigned long', possible loss of data
+     Creating library C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/OgreTerrain_d.lib and object C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/OgreTerrain_d.exp
+  OgreTerrain.vcxproj -> C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\Debug\OgreTerrain_d.dll

@@ -1,0 +1,12 @@
+﻿  OgreHlmsDatablock.cpp
+  OgreHlmsManager.cpp
+  OgreHlmsMaterialBase.cpp
+  OgreHlmsPbsMaterial.cpp
+  OgreHlmsPropertyHelper.cpp
+  OgreHlmsPropertyMap.cpp
+  OgreHlmsShaderGenerator.cpp
+  OgreHlmsShaderManager.cpp
+  OgreHlmsShaderPiecesManager.cpp
+  OgreHlmsShaderTemplate.cpp
+     Creating library C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/OgreHLMS_d.lib and object C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/OgreHLMS_d.exp
+  OgreHLMS.vcxproj -> C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\Debug\OgreHLMS_d.dll

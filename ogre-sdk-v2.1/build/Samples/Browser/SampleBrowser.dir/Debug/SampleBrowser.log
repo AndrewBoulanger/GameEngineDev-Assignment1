@@ -1,0 +1,28 @@
+﻿  SampleBrowser.cpp
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(188,125): warning C4244: '=': conversion from 'int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(189,110): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=Ogre::Real
+          ]
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(195,38): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(204,37): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(205,36): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(206,92): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(206,38): warning C4244: 'initializing': conversion from 'double' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(211,67): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(211,53): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(212,97): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(212,65): warning C4244: 'argument': conversion from 'double' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(214,61): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(213,63): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(451,131): warning C4244: 'argument': conversion from 'Ogre::Real' to 'unsigned int', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(456,71): warning C4244: 'argument': conversion from 'int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(509,60): warning C4244: 'argument': conversion from 'Ogre::Real' to 'size_t', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(755,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(756,25): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(757,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(758,29): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(770,94): warning C4244: 'argument': conversion from 'const int' to 'Ogre::Real', possible loss of data
+C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\Samples\include\SampleBrowser.h(770,30): warning C4244: 'initializing': conversion from 'Ogre::Real' to 'int', possible loss of data
+  SampleBrowser.vcxproj -> C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\Debug\SampleBrowser_d.exe
