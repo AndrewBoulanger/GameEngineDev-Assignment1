@@ -1,0 +1,84 @@
+\hypertarget{class_game}{}\doxysection{Game Class Reference}
+\label{class_game}\index{Game@{Game}}
+
+
+the game application, it handles inputs, ui and holds/updates game objects  
+
+
+
+
+{\ttfamily \#include $<$Game.\+h$>$}
+
+Inheritance diagram for Game\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_game}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_game_ad59df6562a58a614fda24622d3715b65}{Game}} ()
+\begin{DoxyCompactList}\small\item\em constructor \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_game_a72772b628443c3675976d6b5e6c9ec2a}{$\sim$\+Game}} ()
+\item 
+void \mbox{\hyperlink{class_game_a0ee29f2672f4b4d2ab4279fcd7475dfa}{Update}} (float delta\+Time)
+\begin{DoxyCompactList}\small\item\em calls update UI, ball and paddle, responds to losing lives and scoring point conditions. only runs while is\+Game\+Running == true \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_game_aa07a18adf53a219302542f790c5f9743}{Update\+Frame\+Stats}} (int fps, int tpu)
+\begin{DoxyCompactList}\small\item\em updates fps and time per update, (use a timer to avoid calling every frame. they update too quickly to read otherwise) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+the game application, it handles inputs, ui and holds/updates game objects 
+
+\begin{DoxyAuthor}{Author}
+Andrew Boulanger 101292574 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_game_ad59df6562a58a614fda24622d3715b65}\label{class_game_ad59df6562a58a614fda24622d3715b65}} 
+\index{Game@{Game}!Game@{Game}}
+\index{Game@{Game}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{Game()}{Game()}}
+{\footnotesize\ttfamily Game\+::\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+constructor 
+
+\mbox{\Hypertarget{class_game_a72772b628443c3675976d6b5e6c9ec2a}\label{class_game_a72772b628443c3675976d6b5e6c9ec2a}} 
+\index{Game@{Game}!````~Game@{$\sim$Game}}
+\index{````~Game@{$\sim$Game}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{$\sim$Game()}{~Game()}}
+{\footnotesize\ttfamily virtual Game\+::$\sim$\+Game (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_game_a0ee29f2672f4b4d2ab4279fcd7475dfa}\label{class_game_a0ee29f2672f4b4d2ab4279fcd7475dfa}} 
+\index{Game@{Game}!Update@{Update}}
+\index{Update@{Update}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily void Game\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})}
+
+
+
+calls update UI, ball and paddle, responds to losing lives and scoring point conditions. only runs while is\+Game\+Running == true 
+
+\mbox{\Hypertarget{class_game_aa07a18adf53a219302542f790c5f9743}\label{class_game_aa07a18adf53a219302542f790c5f9743}} 
+\index{Game@{Game}!UpdateFrameStats@{UpdateFrameStats}}
+\index{UpdateFrameStats@{UpdateFrameStats}!Game@{Game}}
+\doxysubsubsection{\texorpdfstring{UpdateFrameStats()}{UpdateFrameStats()}}
+{\footnotesize\ttfamily void Game\+::\+Update\+Frame\+Stats (\begin{DoxyParamCaption}\item[{int}]{fps,  }\item[{int}]{tpu }\end{DoxyParamCaption})}
+
+
+
+updates fps and time per update, (use a timer to avoid calling every frame. they update too quickly to read otherwise) 
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Orgre\+Template\+V2/\mbox{\hyperlink{_game_8h}{Game.\+h}}\item 
+Orgre\+Template\+V2/\mbox{\hyperlink{_game_8cpp}{Game.\+cpp}}\end{DoxyCompactItemize}

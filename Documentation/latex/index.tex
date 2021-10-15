@@ -1,0 +1,18 @@
+\begin{DoxyAuthor}{Author}
+Andrew Boulanger 101292574
+\end{DoxyAuthor}
+A single player pong-\/like game made with Ogre3D
+
+controls with W and S or the up and down arrow keys
+
+press esc to quit the game.
+
+design decisions\+:
+
+I decided to pass the scene manager reference into the ball and paddle objects to avoid cluttering up the game setup. This way the game just needs to call the constructor.
+
+The ball has it\textquotesingle{}s own collision reaction function which is called immediately after the game class checks for collisions, rather than having the check collision function tell the ball what to do. I could say I\textquotesingle{}m trying to be more object oriented, but actually I\textquotesingle{}m just being lazy and not checking for penetration, so this method makes sure that collision responses aren\textquotesingle{}t being called while the ball is moving out of the paddle.
+
+I decided to add some randomness to the ball\textquotesingle{}s response too, when the ball bounces off of the paddle it changes the ball\textquotesingle{}s y velocity up or down by a random amount. The random amount will, at most, be 25\% of the max speed. I take a random number, mod(\%) it to half the max speed and reduce that by half of the half speed (so +/-\/ 25\%). I made it 25\% because it felt jarring if it was too much of a change, but I still wanted some variety.
+
+AABB-\/ circle collision still has some odd behaviour when it hits on the corners. It sometimes reflects in directions that don\textquotesingle{}t quite look right. 

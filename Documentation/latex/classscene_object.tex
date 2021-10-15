@@ -1,0 +1,86 @@
+\hypertarget{classscene_object}{}\doxysection{scene\+Object Class Reference}
+\label{classscene_object}\index{sceneObject@{sceneObject}}
+
+
+parent class to scene objects which need to be updated and checked for collision (i.\+e. the paddle and ball)  
+
+
+
+
+{\ttfamily \#include $<$Scene\+Object.\+h$>$}
+
+Inheritance diagram for scene\+Object\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classscene_object}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual bool \mbox{\hyperlink{classscene_object_a562a3856245f8c9eb72a81a343601958}{Update}} (float delta\+Time)=0
+\item 
+virtual Ogre\+::\+Vector3 \mbox{\hyperlink{classscene_object_a16e346d9149f500c0da377228adddda4}{Get\+Position}} ()
+\begin{DoxyCompactList}\small\item\em returns the world position based on the attached scene node \end{DoxyCompactList}\item 
+virtual Ogre\+::\+Vector3 \mbox{\hyperlink{classscene_object_adb2fb4f6b0c433fd7b3f0ce6ae64cb73}{Get\+Half\+Size}} ()
+\begin{DoxyCompactList}\small\item\em returns the bounding box half size (of the width, height and depth) held by the scene node. useful for collision detection \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Ogre\+::\+Scene\+Node $\ast$ \mbox{\hyperlink{classscene_object_a843f6ec810504d42215626a675783051}{node}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+parent class to scene objects which need to be updated and checked for collision (i.\+e. the paddle and ball) 
+
+\begin{DoxyAuthor}{Author}
+Andrew Boulanger 101292574 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classscene_object_adb2fb4f6b0c433fd7b3f0ce6ae64cb73}\label{classscene_object_adb2fb4f6b0c433fd7b3f0ce6ae64cb73}} 
+\index{sceneObject@{sceneObject}!GetHalfSize@{GetHalfSize}}
+\index{GetHalfSize@{GetHalfSize}!sceneObject@{sceneObject}}
+\doxysubsubsection{\texorpdfstring{GetHalfSize()}{GetHalfSize()}}
+{\footnotesize\ttfamily virtual Ogre\+::\+Vector3 scene\+Object\+::\+Get\+Half\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+returns the bounding box half size (of the width, height and depth) held by the scene node. useful for collision detection 
+
+\mbox{\Hypertarget{classscene_object_a16e346d9149f500c0da377228adddda4}\label{classscene_object_a16e346d9149f500c0da377228adddda4}} 
+\index{sceneObject@{sceneObject}!GetPosition@{GetPosition}}
+\index{GetPosition@{GetPosition}!sceneObject@{sceneObject}}
+\doxysubsubsection{\texorpdfstring{GetPosition()}{GetPosition()}}
+{\footnotesize\ttfamily virtual Ogre\+::\+Vector3 scene\+Object\+::\+Get\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+returns the world position based on the attached scene node 
+
+\mbox{\Hypertarget{classscene_object_a562a3856245f8c9eb72a81a343601958}\label{classscene_object_a562a3856245f8c9eb72a81a343601958}} 
+\index{sceneObject@{sceneObject}!Update@{Update}}
+\index{Update@{Update}!sceneObject@{sceneObject}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily virtual bool scene\+Object\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+Implemented in \mbox{\hyperlink{class_ball_adc2f2007057ff0a0c48841db72da0a36}{Ball}}, and \mbox{\hyperlink{class_paddle_aa6c84aa600094e7ae5951c5ab5662920}{Paddle}}.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{classscene_object_a843f6ec810504d42215626a675783051}\label{classscene_object_a843f6ec810504d42215626a675783051}} 
+\index{sceneObject@{sceneObject}!node@{node}}
+\index{node@{node}!sceneObject@{sceneObject}}
+\doxysubsubsection{\texorpdfstring{node}{node}}
+{\footnotesize\ttfamily Ogre\+::\+Scene\+Node$\ast$ scene\+Object\+::node\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Orgre\+Template\+V2/\mbox{\hyperlink{_scene_object_8h}{Scene\+Object.\+h}}\end{DoxyCompactItemize}

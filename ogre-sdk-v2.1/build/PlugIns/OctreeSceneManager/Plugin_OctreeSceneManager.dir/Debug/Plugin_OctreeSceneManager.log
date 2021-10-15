@@ -1,9 +1,0 @@
-﻿  OgreOctree.cpp
-  OgreOctreeCamera.cpp
-  OgreOctreeNode.cpp
-  OgreOctreePlugin.cpp
-  OgreOctreeSceneManager.cpp
-  OgreOctreeSceneManagerDll.cpp
-  OgreOctreeSceneQuery.cpp
-     Creating library C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/Plugin_OctreeSceneManager_d.lib and object C:/Hooman/GBC/GAME3121/Course Materials/GameEngineDevelopment/ogre-sdk-v2.1/build/lib/Debug/Plugin_OctreeSceneManager_d.exp
-  Plugin_OctreeSceneManager.vcxproj -> C:\Hooman\GBC\GAME3121\Course Materials\GameEngineDevelopment\ogre-sdk-v2.1\build\bin\Debug\Plugin_OctreeSceneManager_d.dll

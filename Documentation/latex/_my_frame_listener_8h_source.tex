@@ -1,0 +1,31 @@
+\hypertarget{_my_frame_listener_8h_source}{}\doxysection{My\+Frame\+Listener.\+h}
+\label{_my_frame_listener_8h_source}\index{OrgreTemplateV2/MyFrameListener.h@{OrgreTemplateV2/MyFrameListener.h}}
+\mbox{\hyperlink{_my_frame_listener_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 }
+\DoxyCodeLine{3 }
+\DoxyCodeLine{4 \textcolor{keyword}{class }\mbox{\hyperlink{class_my_frame_listener}{MyFrameListener}} : \textcolor{keyword}{public} Ogre::FrameListener}
+\DoxyCodeLine{5 \{}
+\DoxyCodeLine{6 \textcolor{keyword}{private}:}
+\DoxyCodeLine{7     Ogre::SceneNode* \_node;}
+\DoxyCodeLine{8 }
+\DoxyCodeLine{9     Ogre::Vector3 translate(0, 0, 0);}
+\DoxyCodeLine{10     Ogre::Real m\_Angle = 0.0;}
+\DoxyCodeLine{11 \textcolor{keyword}{public}:}
+\DoxyCodeLine{12 }
+\DoxyCodeLine{13     \mbox{\hyperlink{class_my_frame_listener_a404a8981471d867cbcdcd478d0bd7fdb}{MyFrameListener}}(Ogre::SceneNode* node)}
+\DoxyCodeLine{14     \{}
+\DoxyCodeLine{15         \_node = node;}
+\DoxyCodeLine{16     \}}
+\DoxyCodeLine{17 }
+\DoxyCodeLine{18     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_my_frame_listener_a85d13215e15d8c416e63ab9853fdff38}{frameStarted}}(\textcolor{keyword}{const} Ogre::FrameEvent\& evt);}
+\DoxyCodeLine{19 }
+\DoxyCodeLine{20     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_my_frame_listener_abec742f0386e8c623c57ad86e10ab75f}{SetTranslate}}(Ogre::Vector3 vec)}
+\DoxyCodeLine{21     \{}
+\DoxyCodeLine{22         translate = vec;}
+\DoxyCodeLine{23     \}}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25 \};}
+
+\end{DoxyCode}

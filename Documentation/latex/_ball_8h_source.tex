@@ -1,0 +1,33 @@
+\hypertarget{_ball_8h_source}{}\doxysection{Ball.\+h}
+\label{_ball_8h_source}\index{OrgreTemplateV2/Ball.h@{OrgreTemplateV2/Ball.h}}
+\mbox{\hyperlink{_ball_8h}{Go to the documentation of this file.}}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{1 \textcolor{preprocessor}{\#pragma once}}
+\DoxyCodeLine{2 \textcolor{preprocessor}{\#include "{}Ogre.h"{}}}
+\DoxyCodeLine{3 \textcolor{preprocessor}{\#include "{}\mbox{\hyperlink{_scene_object_8h}{SceneObject.h}}"{}}}
+\DoxyCodeLine{4 }
+\DoxyCodeLine{9 \textcolor{keyword}{class }\mbox{\hyperlink{class_ball}{Ball}} : \textcolor{keyword}{public} \mbox{\hyperlink{classscene_object}{sceneObject}}}
+\DoxyCodeLine{10 \{}
+\DoxyCodeLine{11 \textcolor{keyword}{private}:}
+\DoxyCodeLine{12     \textcolor{keywordtype}{float} xVelocity;}
+\DoxyCodeLine{13     \textcolor{keywordtype}{float} yVelocity;}
+\DoxyCodeLine{14     \textcolor{keywordtype}{float} maxYVel;}
+\DoxyCodeLine{15     }
+\DoxyCodeLine{16 }
+\DoxyCodeLine{17     \textcolor{keywordtype}{float} topScreen, bottonScreen, rightScreen, leftScreen;}
+\DoxyCodeLine{18 }
+\DoxyCodeLine{19 \textcolor{keyword}{public}:}
+\DoxyCodeLine{20 }
+\DoxyCodeLine{21     \mbox{\hyperlink{class_ball_a12fee92668bfa719111fac7a61567d50}{Ball}}(\textcolor{keywordtype}{float} xVel, \textcolor{keywordtype}{float} maxY, Ogre::SceneManager* scnManager);}
+\DoxyCodeLine{22 }
+\DoxyCodeLine{23     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_ball_adc2f2007057ff0a0c48841db72da0a36}{Update}}(\textcolor{keywordtype}{float} deltaTime);}
+\DoxyCodeLine{24 }
+\DoxyCodeLine{25     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ball_af3159e62f2ec2716d11134d35c2d8bf8}{FlipXVelocity}}();}
+\DoxyCodeLine{26     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ball_a1911c20b5216c631beb92385c6f33a54}{flipYvelocity}}();}
+\DoxyCodeLine{27     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ball_a037b0a8ef216256ff90d2a7587e3af2d}{RandomizeYVelocity}}();}
+\DoxyCodeLine{28     \textcolor{keywordtype}{void} \mbox{\hyperlink{class_ball_a9193598799854ebe1afb57f48d51008a}{ResetPosition}}();}
+\DoxyCodeLine{29     }
+\DoxyCodeLine{30     \textcolor{keywordtype}{bool} \mbox{\hyperlink{class_ball_a3324110dbab54daff52391351675866b}{OnPaddleCollision}}(Ogre::Vector3 normal);}
+\DoxyCodeLine{31 \};}
+
+\end{DoxyCode}

@@ -1,0 +1,118 @@
+\hypertarget{class_ball}{}\doxysection{Ball Class Reference}
+\label{class_ball}\index{Ball@{Ball}}
+
+
+Sphere mesh and scene node which moves every update based on the x and y velocity. stays within the set bounds of the screen. flips direction on collision with walls or paddle. inherits from \mbox{\hyperlink{classscene_object}{scene\+Object}}.  
+
+
+
+
+{\ttfamily \#include $<$Ball.\+h$>$}
+
+Inheritance diagram for Ball\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_ball}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_ball_a12fee92668bfa719111fac7a61567d50}{Ball}} (float x\+Vel, float maxY, Ogre\+::\+Scene\+Manager $\ast$scn\+Manager)
+\item 
+bool \mbox{\hyperlink{class_ball_adc2f2007057ff0a0c48841db72da0a36}{Update}} (float delta\+Time)
+\item 
+void \mbox{\hyperlink{class_ball_af3159e62f2ec2716d11134d35c2d8bf8}{Flip\+XVelocity}} ()
+\begin{DoxyCompactList}\small\item\em reverses the ball\textquotesingle{}s direction on the x axis \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ball_a1911c20b5216c631beb92385c6f33a54}{flip\+Yvelocity}} ()
+\begin{DoxyCompactList}\small\item\em reverses the ball\textquotesingle{}s direction on the y axis \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ball_a037b0a8ef216256ff90d2a7587e3af2d}{Randomize\+YVelocity}} ()
+\begin{DoxyCompactList}\small\item\em adds or reduces random value from ball\textquotesingle{}s y Velocity. at most 25\% of max Y velocity \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_ball_a9193598799854ebe1afb57f48d51008a}{Reset\+Position}} ()
+\begin{DoxyCompactList}\small\item\em called when the ball goes off screen returns ball to the center of the screen \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_ball_a3324110dbab54daff52391351675866b}{On\+Paddle\+Collision}} (Ogre\+::\+Vector3 normal)
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Sphere mesh and scene node which moves every update based on the x and y velocity. stays within the set bounds of the screen. flips direction on collision with walls or paddle. inherits from \mbox{\hyperlink{classscene_object}{scene\+Object}}. 
+
+\begin{DoxyAuthor}{Author}
+Andrew Boulanger 101292574 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_ball_a12fee92668bfa719111fac7a61567d50}\label{class_ball_a12fee92668bfa719111fac7a61567d50}} 
+\index{Ball@{Ball}!Ball@{Ball}}
+\index{Ball@{Ball}!Ball@{Ball}}
+\doxysubsubsection{\texorpdfstring{Ball()}{Ball()}}
+{\footnotesize\ttfamily Ball\+::\+Ball (\begin{DoxyParamCaption}\item[{float}]{x\+Vel,  }\item[{float}]{maxY,  }\item[{Ogre\+::\+Scene\+Manager $\ast$}]{scn\+Mgr }\end{DoxyParamCaption})}
+
+creates a ball. takes an x speed and max possible y speed (actual y speed will be randomized) also takes a scene manager so it can be placed in a scene 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_ball_af3159e62f2ec2716d11134d35c2d8bf8}\label{class_ball_af3159e62f2ec2716d11134d35c2d8bf8}} 
+\index{Ball@{Ball}!FlipXVelocity@{FlipXVelocity}}
+\index{FlipXVelocity@{FlipXVelocity}!Ball@{Ball}}
+\doxysubsubsection{\texorpdfstring{FlipXVelocity()}{FlipXVelocity()}}
+{\footnotesize\ttfamily void Ball\+::\+Flip\+XVelocity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+reverses the ball\textquotesingle{}s direction on the x axis 
+
+\mbox{\Hypertarget{class_ball_a1911c20b5216c631beb92385c6f33a54}\label{class_ball_a1911c20b5216c631beb92385c6f33a54}} 
+\index{Ball@{Ball}!flipYvelocity@{flipYvelocity}}
+\index{flipYvelocity@{flipYvelocity}!Ball@{Ball}}
+\doxysubsubsection{\texorpdfstring{flipYvelocity()}{flipYvelocity()}}
+{\footnotesize\ttfamily void Ball\+::flip\+Yvelocity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+reverses the ball\textquotesingle{}s direction on the y axis 
+
+\mbox{\Hypertarget{class_ball_a3324110dbab54daff52391351675866b}\label{class_ball_a3324110dbab54daff52391351675866b}} 
+\index{Ball@{Ball}!OnPaddleCollision@{OnPaddleCollision}}
+\index{OnPaddleCollision@{OnPaddleCollision}!Ball@{Ball}}
+\doxysubsubsection{\texorpdfstring{OnPaddleCollision()}{OnPaddleCollision()}}
+{\footnotesize\ttfamily bool Ball\+::\+On\+Paddle\+Collision (\begin{DoxyParamCaption}\item[{Ogre\+::\+Vector3}]{normal }\end{DoxyParamCaption})}
+
+how the ball reacts on collision given the normal of the paddle side. returns whether or not the collision was valid (i.\+e. if the ball was moving right, it couldn\textquotesingle{}t have been a valid collision). ~\newline
+ helps prevent confusion caused by overlap and penetration and changes direction given the axis it collided on \mbox{\Hypertarget{class_ball_a037b0a8ef216256ff90d2a7587e3af2d}\label{class_ball_a037b0a8ef216256ff90d2a7587e3af2d}} 
+\index{Ball@{Ball}!RandomizeYVelocity@{RandomizeYVelocity}}
+\index{RandomizeYVelocity@{RandomizeYVelocity}!Ball@{Ball}}
+\doxysubsubsection{\texorpdfstring{RandomizeYVelocity()}{RandomizeYVelocity()}}
+{\footnotesize\ttfamily void Ball\+::\+Randomize\+YVelocity (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+adds or reduces random value from ball\textquotesingle{}s y Velocity. at most 25\% of max Y velocity 
+
+\mbox{\Hypertarget{class_ball_a9193598799854ebe1afb57f48d51008a}\label{class_ball_a9193598799854ebe1afb57f48d51008a}} 
+\index{Ball@{Ball}!ResetPosition@{ResetPosition}}
+\index{ResetPosition@{ResetPosition}!Ball@{Ball}}
+\doxysubsubsection{\texorpdfstring{ResetPosition()}{ResetPosition()}}
+{\footnotesize\ttfamily void Ball\+::\+Reset\+Position (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+called when the ball goes off screen returns ball to the center of the screen 
+
+\mbox{\Hypertarget{class_ball_adc2f2007057ff0a0c48841db72da0a36}\label{class_ball_adc2f2007057ff0a0c48841db72da0a36}} 
+\index{Ball@{Ball}!Update@{Update}}
+\index{Update@{Update}!Ball@{Ball}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily bool Ball\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+moves the ball based on it\textquotesingle{}s x and y velocity and checks for collision with the walls. if it does collide with the walls, reflect the direction. if its the left wall, reset the ball and return true 
+
+Implements \mbox{\hyperlink{classscene_object_a562a3856245f8c9eb72a81a343601958}{scene\+Object}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Orgre\+Template\+V2/\mbox{\hyperlink{_ball_8h}{Ball.\+h}}\item 
+Orgre\+Template\+V2/\mbox{\hyperlink{_ball_8cpp}{Ball.\+cpp}}\end{DoxyCompactItemize}

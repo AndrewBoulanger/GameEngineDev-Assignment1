@@ -1,0 +1,73 @@
+\hypertarget{class_paddle}{}\doxysection{Paddle Class Reference}
+\label{class_paddle}\index{Paddle@{Paddle}}
+
+
+Square mesh and scene node which moves every update based on a passed in vertical input. stays within the set bounds of the screen. inherits from \mbox{\hyperlink{classscene_object}{scene\+Object}}.  
+
+
+
+
+{\ttfamily \#include $<$Paddle.\+h$>$}
+
+Inheritance diagram for Paddle\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_paddle}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_paddle_ad12583fd61f5de19e5ff4fd53399da84}{Paddle}} (Ogre\+::\+Scene\+Manager $\ast$scn\+Mgr)
+\item 
+bool \mbox{\hyperlink{class_paddle_aa6c84aa600094e7ae5951c5ab5662920}{Update}} (float delta\+Time)
+\item 
+void \mbox{\hyperlink{class_paddle_a05035570c15bef1bda4f463a1dde93c9}{Get\+Input}} (float vertical)
+\begin{DoxyCompactList}\small\item\em allows other objects to pass in vertical input. If not zero, it\textquotesingle{}ll move during the update \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+Square mesh and scene node which moves every update based on a passed in vertical input. stays within the set bounds of the screen. inherits from \mbox{\hyperlink{classscene_object}{scene\+Object}}. 
+
+\begin{DoxyAuthor}{Author}
+Andrew Boulanger 101292574 
+\end{DoxyAuthor}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_paddle_ad12583fd61f5de19e5ff4fd53399da84}\label{class_paddle_ad12583fd61f5de19e5ff4fd53399da84}} 
+\index{Paddle@{Paddle}!Paddle@{Paddle}}
+\index{Paddle@{Paddle}!Paddle@{Paddle}}
+\doxysubsubsection{\texorpdfstring{Paddle()}{Paddle()}}
+{\footnotesize\ttfamily Paddle\+::\+Paddle (\begin{DoxyParamCaption}\item[{Ogre\+::\+Scene\+Manager $\ast$}]{scn\+Mgr }\end{DoxyParamCaption})}
+
+constructor -\/ takes a scene manager to allow creation of a scene node. also creates a cube mesh and sets default values 
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_paddle_a05035570c15bef1bda4f463a1dde93c9}\label{class_paddle_a05035570c15bef1bda4f463a1dde93c9}} 
+\index{Paddle@{Paddle}!GetInput@{GetInput}}
+\index{GetInput@{GetInput}!Paddle@{Paddle}}
+\doxysubsubsection{\texorpdfstring{GetInput()}{GetInput()}}
+{\footnotesize\ttfamily void Paddle\+::\+Get\+Input (\begin{DoxyParamCaption}\item[{float}]{vertical }\end{DoxyParamCaption})}
+
+
+
+allows other objects to pass in vertical input. If not zero, it\textquotesingle{}ll move during the update 
+
+\mbox{\Hypertarget{class_paddle_aa6c84aa600094e7ae5951c5ab5662920}\label{class_paddle_aa6c84aa600094e7ae5951c5ab5662920}} 
+\index{Paddle@{Paddle}!Update@{Update}}
+\index{Update@{Update}!Paddle@{Paddle}}
+\doxysubsubsection{\texorpdfstring{Update()}{Update()}}
+{\footnotesize\ttfamily bool Paddle\+::\+Update (\begin{DoxyParamCaption}\item[{float}]{delta\+Time }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+handles movement if the paddle has received input. clamped within the bounds of the screen. pass in delta\+Time for frame independent movement 
+
+Implements \mbox{\hyperlink{classscene_object_a562a3856245f8c9eb72a81a343601958}{scene\+Object}}.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+Orgre\+Template\+V2/\mbox{\hyperlink{_paddle_8h}{Paddle.\+h}}\item 
+Orgre\+Template\+V2/\mbox{\hyperlink{_paddle_8cpp}{Paddle.\+cpp}}\end{DoxyCompactItemize}
